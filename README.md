@@ -16,3 +16,5 @@ make
 ``` bash
 ./ircserv <port> <password>
 ```
+
+Use IRSSI to connect!
