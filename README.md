@@ -1,3 +1,18 @@
-## ft_irc
+### ft_irc
+# ft_irc Project
 
-Création d'un serveur IRC en C++ 98 permettant la communication textuelle instantanée. Le serveur gère plusieurs clients simultanément avec des opérations non bloquantes. Les fonctionnalités obligatoires incluent l'authentification, la gestion des canaux, et des commandes spécifiques aux opérateurs de canaux.
+This project involves creating an Internet Relay Chat (IRC) server in C++ 98, allowing text communication between users. The server manages multiple clients simultaneously with non-blocking operations.
+
+## How to Run
+
+To launch the IRC server, follow these steps:
+
+1. Compile the project using the provided Makefile:
+
+``` bash
+make
+```
+
+``` bash
+./ircserv <port> <password>
+```
